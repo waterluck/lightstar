@@ -4,7 +4,8 @@
 #
 # The URL from which the site will be served
 #baseurl = "https://hugcis.github.io/hugo-astatine-theme/"
-baseurl = "https://hugcis.github.io/"
+#baseurl = "https://hugcis.github.io/"
+baseurl = " https://waterluck.github.io/lightstar/"
 # Language used
 languageCode = "en-us"
 # Website title

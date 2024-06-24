@@ -71,7 +71,7 @@ journal = {Proceedings of the 29th Annual Meeting of the Association for Natural
 
 # Research
 
-I'm a Second-year PhD student at Tohoku University and a member of [Fai Lab](https://www.fai.cds.tohoku.ac.jp/about-us/members/),[Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/). 
+I'm a Second-year PhD student at Tohoku University and a member of [Fai Lab](https://www.fai.cds.tohoku.ac.jp/about-us/members/), [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/). 
 My current research topic is Multilingualism of Large Language Models(LLMs); I'm also interested in other aspects of Natural Language Processing, especially model's generalization capability and interpretability.
 
 ---

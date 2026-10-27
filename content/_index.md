@@ -69,25 +69,20 @@ publications:
 
 # Research
 
-I'm a PhD student in the Graduate School of Information Sciences at Tohoku University and a member of [Fai Lab](https://www.fai.cds.tohoku.ac.jp/about-us/members/), [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/).
-My research focuses on multilingual large language models, particularly cross-lingual generalization, target-language generation, and internal language representations. I am also interested in model interpretability and culturally grounded question answering.
+I'm a third-year PhD student in the Graduate School of Information Sciences at Tohoku University and a member of [Fai Lab](https://www.fai.cds.tohoku.ac.jp/about-us/members/) and the [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/).
 
----
+My research focuses on **multilingualism** in large language models, particularly cross-lingual generalization, target-language generation, and internal language representations. I am also interested in **interpretability** and **cultural aspects** of LLMs.
+
 
 # Background
 
 2023.4 - Present:  
     [Tohoku University](https://www.tohoku.ac.jp/en/)， Doctoral Program in Graduate School of Information Sciences
 
-2021.4 - 2023.3:   
-    [Tohoku Gakuin University](https://www.tohoku-gakuin.ac.jp/en/)， Master's program in Graduate School of Human Informatics
-
----
 
 # Contact
 
 Email: xie.suchun.p7 at_mark dc.tohoku.ac.jp
-
 Github: [https://github.com/waterluck](https://github.com/waterluck)
 
 ---

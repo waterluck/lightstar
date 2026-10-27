@@ -91,9 +91,9 @@ publications:
 
 # Research
 
-I'm a third-year PhD student in the Graduate School of Information Sciences at Tohoku University and a member of [Fai Lab](https://www.fai.cds.tohoku.ac.jp/about-us/members/) and the [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/). My doctoral research is supervised by Professor [Jun Suzuki](https://scholar.google.com/citations?user=XO5CrIsAAAAJ&hl=en).
+I'm a third-year PhD student in the Graduate School of Information Sciences at Tohoku University and a member of [Fai Lab](https://www.fai.cds.tohoku.ac.jp/about-us/members/) and the [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/). I'm supervised by Professor supervised by Professor [Jun Suzuki](https://scholar.google.com/citations?user=XO5CrIsAAAAJ&hl=en).
 
-My research focuses on **multilingualism** in large language models, particularly cross-lingual generalization, target-language generation, and internal language representations. I am also interested in **interpretability** and **cultural aspects** of LLMs.
+My research focuses on **Multilingualism** in large language models, particularly cross-lingual generalization, target-language generation, and internal language representations. I am also interested in **Interpretability** and **Cultural aspects** of LLMs.
 
 
 # Background

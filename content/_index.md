@@ -1,78 +1,76 @@
 ---
-# === Required fields  ===
-# Your name 
-name: "Suchun Xie"
-# Your profile picture
-imgname: 
-  name: "img/main.jpg"
-  alt: "Picture of me"
+name: Suchun Xie
+imgname:
+  name: img/main.jpg
+  alt: Picture of me
   type: image/jpeg
-
-
-# More sources can be added (optional) using 
-# imgOther:
-#   - name: $IMAGE_PATH
-#     type: $IMAGE_TYPE
-#   - name: $IMAGE_PATH
-#     type: $IMAGE_TYPE
-# ...
-# A title (job title or "Researcher", "PhD student", etc.)
 personal_title: PhD student at Tohoku University
-# An address (you can list multiple)
 address:
-  -
-    name: 
-    street: "Team:  Tohoku NLP Group "
-    postal_code: "Email:  xie.suchun.p7 at_mark dc.tohoku.ac.jp"
-    locality: "Address: Sendai City, Miyagi, Japan"
-
-
-# === Optional fields ===
-# Add an email with a mailto: hyperlink
-#email: xie.suchun.p7 at_mark dc.tohoku.ac.jp
-# # Add an email "image" for spam protection. With light and dark mode
-# # emailImg: 
-#    dark: /img/dark_email.png
-#    light: /img/light_email.png
-
-# List your publications. The required fields are pdf, title, and image 
-# (which should be the image path). The other fields are optional.
+- name: null
+  street: 'Team:  Tohoku NLP Group '
+  postal_code: 'Email:  xie.suchun.p7 at_mark dc.tohoku.ac.jp'
+  locality: 'Address: Sendai City, Miyagi, Japan'
 publications:
-   - 
-
-    title: "日本語BERTモデルによる近代文の誤り訂正/ Error Correction on Digitization of Modern Japanese Documents with Pre-trained BERT "
-    # Will write "In ${journal}, ${date}"
-    date: 2023-03
-    authors:
-        - name: Suchun Xie
-          me: true
-        - name: Akiyo Matsumoto    
-    journal: Proceedings of the Twenty-ninth Annual Meeting of the Association for Natural Language Processing
-    #image: img/paper_illustration.png
-    # A bibtex (or any other format) citation that people can copy directly from the website.
-    citation: "@article{article,\n
-author = {Suchun Xie, Akiyo Matsumoto},\n
-year = {2023},\n
-month = {03},\n
-pages = {1616-1620},\n
-title = {日本語BERTモデルによる近代文の誤り訂正},\n
-volume = {},\n
-journal = {Proceedings of the 29th Annual Meeting of the Association for Natural Language Processing},\n
-#doi = {10.1038/ncomms2819}\n
-}"
-    pdf: https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/C7-4.pdf
-    # A list of link that will appear as badges at the bottom of the publication.
-    links:
-      -
-        name: Main URL
-        url: "https://www.anlp.jp/nlp2023/"
-
+- title: Can Language Neuron Intervention Reduce Non-Target Language Output?
+  date: 2026 (accepted)
+  authors: &id001
+  - name: Suchun Xie
+    me: true
+  - name: Hwichan Kim
+  - name: Shota Sasaki
+  - name: Kosuke Yamada
+  - name: Jun Suzuki
+  journal: Journal of Natural Language Processing (自然言語処理)
+  description: Accepted for publication in Vol. 33, No. 4 (scheduled for December 2026).
+  links:
+  - name: Acceptance announcement
+    url: https://www.anlp.jp/en/guide/saitaku.html
+- title: Can Language Neuron Intervention Reduce Non-Target Language Output?
+  date: 2025-11
+  authors: *id001
+  journal: 'Proceedings of the 8th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP, pp. 452–466'
+  pdf: https://aclanthology.org/2025.blackboxnlp-1.26.pdf
+  links:
+  - name: PDF
+    url: https://aclanthology.org/2025.blackboxnlp-1.26.pdf
+  - name: ACL Anthology
+    url: https://aclanthology.org/2025.blackboxnlp-1.26/
+- title: 'Understanding Cross-Lingual Generalization of English-Centric LLMs: The Role of Representation Similarity and Data Exposure'
+  date: 2025-11
+  authors:
+  - name: Suchun Xie
+    me: true
+  - name: Shota Sasaki
+  - name: Hwichan Kim
+  - name: Yunmeng Li
+  - name: Reina Akama
+  - name: Jun Suzuki
+  journal: 'PRICAI 2025: Trends in Artificial Intelligence, pp. 530–546'
+  pdf: https://link.springer.com/chapter/10.1007/978-981-95-7078-2_34
+  links:
+  - name: Paper
+    url: https://link.springer.com/chapter/10.1007/978-981-95-7078-2_34
+  description: 'Conference: November 2025. Proceedings published in April 2026.'
+- title: 日本語BERTモデルによる近代文の誤り訂正/ Error Correction on Digitization of Modern Japanese Documents with Pre-trained BERT
+  date: 2023-03
+  authors:
+  - name: Suchun Xie
+    me: true
+  - name: Akiyo Matsumoto
+  journal: Proceedings of the Twenty-ninth Annual Meeting of the Association for Natural Language Processing
+  citation: "@article{article,\n author = {Suchun Xie, Akiyo Matsumoto},\n year = {2023},\n month = {03},\n pages = {1616-1620},\n title = {日本語BERTモデルによる近代文の誤り訂正},\n volume = {},\n journal = {Proceedings of the 29th Annual Meeting of the Association for Natural Language Processing},\n #doi = {10.1038/ncomms2819}\n }"
+  pdf: https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/C7-4.pdf
+  links:
+  - name: PDF
+    url: https://www.anlp.jp/proceedings/annual_meeting/2023/pdf_dir/C7-4.pdf
+  - name: Main URL
+    url: https://www.anlp.jp/nlp2023/
 ---
 
 # Research
 
-I'm a Second-year PhD student at Tohoku University and a member of [Fai Lab](https://www.fai.cds.tohoku.ac.jp/about-us/members/), [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/). 
-My current research topic is Multilingualism of Large Language Models(LLMs); I'm also interested in other aspects of Natural Language Processing, especially model's generalization capability and interpretability.
+I'm a PhD student in the Graduate School of Information Sciences at Tohoku University and a member of [Fai Lab](https://www.fai.cds.tohoku.ac.jp/about-us/members/), [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/).
+My research focuses on multilingual large language models, particularly cross-lingual generalization, target-language generation, and internal language representations. I am also interested in model interpretability and culturally grounded question answering.
 
 ---
 

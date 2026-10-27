@@ -1,0 +1,25 @@
+<article class="publication" id="{{ anchorize (printf "%s-%s" .title .journal) }}" style="margin: 1.5rem 0; line-height: 1.6;">
+    {{ $titleURL := .pdf }}
+    {{ if and (not $titleURL) .links }}{{ $titleURL = (index .links 0).url }}{{ end }}
+    <h3 style="margin: 0 0 0.25rem; font-size: 1.05rem; line-height: 1.5;">
+        {{- with $titleURL }}<a href="{{ . }}">{{ end -}}
+        {{ .title }}
+        {{- if $titleURL }}</a>{{ end -}}
+    </h3>
+    <div>
+        {{- range $index, $author := .authors -}}
+            {{- if $index }}, {{ end -}}
+            {{- if $author.me }}<strong>{{ $author.name }}</strong>{{ else }}{{ $author.name }}{{ end -}}
+        {{- end -}}
+    </div>
+    <div><em>{{ .journal }}</em>{{ with .date }}, {{ . }}{{ end }}.</div>
+    {{ with .description }}<div style="font-size: 0.9rem;">{{ . }}</div>{{ end }}
+    {{ with .links }}
+    <div style="font-size: 0.9rem;">
+        {{- range $index, $link := . -}}
+            {{- if $index }} · {{ end -}}
+            <a href="{{ $link.url }}">{{ $link.name }}</a>
+        {{- end -}}
+    </div>
+    {{ end }}
+</article>

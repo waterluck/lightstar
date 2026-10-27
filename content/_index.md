@@ -51,6 +51,29 @@ publications:
   - name: Paper
     url: https://link.springer.com/chapter/10.1007/978-981-95-7078-2_34
   description: 'Conference: November 2025. Proceedings published in April 2026.'
+- title: A Multimodal Dialogue System to Lead Consensus Building with Emotion-Displaying
+  date: 2024-09
+  authors:
+  - name: Shinnosuke Nozue
+  - name: Yuto Nakano
+  - name: Shoji Moriya
+  - name: Tomoki Ariyama
+  - name: Kazuma Kokuta
+  - name: Suchun Xie
+    me: true
+  - name: Kai Sato
+  - name: Shusaku Sone
+  - name: Ryohei Kamei
+  - name: Reina Akama
+  - name: Yuichiroh Matsubayashi
+  - name: Keisuke Sakaguchi
+  journal: Proceedings of the 25th Annual Meeting of the Special Interest Group on Discourse and Dialogue, pp. 669–673
+  pdf: https://aclanthology.org/2024.sigdial-1.57.pdf
+  links:
+  - name: PDF
+    url: https://aclanthology.org/2024.sigdial-1.57.pdf
+  - name: ACL Anthology
+    url: https://aclanthology.org/2024.sigdial-1.57/
 - title: 日本語BERTモデルによる近代文の誤り訂正/ Error Correction on Digitization of Modern Japanese Documents with Pre-trained BERT
   date: 2023-03
   authors:

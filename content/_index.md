@@ -4,12 +4,11 @@ imgname:
   name: img/main.jpg
   alt: Picture of me
   type: image/jpeg
-personal_title: PhD student at Tohoku University
+personal_title: PhD Student
 address:
-- name: null
-  street: 'Team:  Tohoku NLP Group '
-  postal_code: 'Email:  xie.suchun.p7 at_mark dc.tohoku.ac.jp'
-  locality: 'Address: Sendai City, Miyagi, Japan'
+- name: Graduate School of Information Sciences
+  street: Tohoku University
+  locality:  Sendai, Japan
 publications:
 - title: Can Language Neuron Intervention Reduce Non-Target Language Output?
   date: 2026 (accepted)
@@ -92,7 +91,7 @@ publications:
 
 # Research
 
-I'm a third-year PhD student in the Graduate School of Information Sciences at Tohoku University and a member of [Fai Lab](https://www.fai.cds.tohoku.ac.jp/about-us/members/) and the [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/).
+I'm a third-year PhD student in the Graduate School of Information Sciences at Tohoku University and a member of [Fai Lab](https://www.fai.cds.tohoku.ac.jp/about-us/members/) and the [Tohoku NLP Group](https://www.nlp.ecei.tohoku.ac.jp/). My doctoral research is supervised by Professor [Jun Suzuki](https://scholar.google.com/citations?user=XO5CrIsAAAAJ&hl=en).
 
 My research focuses on **multilingualism** in large language models, particularly cross-lingual generalization, target-language generation, and internal language representations. I am also interested in **interpretability** and **cultural aspects** of LLMs.
 

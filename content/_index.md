@@ -73,7 +73,7 @@ publications:
     url: https://aclanthology.org/2024.sigdial-1.57.pdf
   - name: ACL Anthology
     url: https://aclanthology.org/2024.sigdial-1.57/
-- title: 日本語BERTモデルによる近代文の誤り訂正/ Error Correction on Digitization of Modern Japanese Documents with Pre-trained BERT
+- title: Error Correction on Digitization of Modern Japanese Documents with Pre-trained BERT
   date: 2023-03
   authors:
   - name: Suchun Xie
